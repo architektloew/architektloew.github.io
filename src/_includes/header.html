@@ -1,0 +1,37 @@
+<header class="site-header">
+
+  <div class="top_tabs">
+    <ul>
+      <li {% unless page.url contains 'sachverstaendiger' or page.url == "/index.html" %} class="active" {% endunless %}>
+        <a href="/architektur/startseite">Architektur</a>
+      </li>
+      <li {% if page.url contains 'sachverstaendiger' %} class="active" {% endif %}>
+        <a href="/sachverstaendiger/startseite">Sachverständiger</a>
+      </li>
+    </ul>
+  </div>
+  <div class="header">
+    <div class="btn-hamburger">
+      <a href='#' class="toggle-button">☰</a>
+    </div>
+    <div id="logo"></div>
+    <div class="header_image">
+      <img src="{{ site.url }}/assets/images/erfolg.jpg" alt="Erfolg für Ihr Bauvorhaben" title="Erfolg für Ihr Bauvorhaben"/>
+    </div>
+  </div>
+  <div class="main_navigation">
+    <ul class="lvl1_navi">
+      {% assign pages = site.architektur | sort: "weight" %}
+      {% if page.url contains 'sachverstaendiger' %}
+        {% assign pages = site.sachverstaendiger | sort: "weight" %}
+      {% endif %}
+      {% for my_page in pages %}
+        {% if my_page.title and my_page.title != "404: Page not found") %}
+        <li {% if page.url == my_page.url %} class="active" {% endif %}>
+          <a title="{{ my_page.title }}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</header>

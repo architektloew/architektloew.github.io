@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include slideout_menu.html %}
+    <div class="outer_wrap" id="panel">
+      <div class="inner_wrap">
+
+        {% include header.html %}
+
+        <div class="main">
+          <div class="headline">
+            <h1>Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.</h1>
+            <h3>Wir bauen Ihr Traumhaus für Ihr Kostenbudget.</h3>
+          </div>
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+
+      </div>
+
+    </div>
+
+  <!-- JS -->
+  <!-- inject:js -->
+  <!-- endinject -->
+
+  <script>
+    var slideout = new Slideout({
+      'panel': document.getElementById('panel'),
+      'menu': document.getElementById('menu'),
+      'padding': 256,
+      'tolerance': 70,
+      'fx': 'ease-in-out'
+    });
+
+    // Toggle button
+    document.querySelector('.toggle-button').addEventListener('click', function() {
+      slideout.toggle();
+    });
+    // document.querySelector('.close-button').addEventListener('click', function() {
+    //   slideout.close();
+    // });
+    var timout = null;
+    window.onresize = function() {
+      clearTimeout(timout);
+      timeout = setTimeout(slideout.close.bind(slideout), 100);
+    };
+  </script>
+  </body>
+
+</html>
