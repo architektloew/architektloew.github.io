@@ -18,7 +18,7 @@ collection: architektur
     <p>Durch unsere jahrelange Tätigkeit als Architekten und Sachverständige kennen wir beide Seiten und können klassische Fehler schon von Anfang an vermeiden.</p>
   </div>
   <figure class="column2">
-    <img src="{{ site.url }}/assets/images/wolken.jpg">
+    <img src="/assets//images/wolken.jpg">
   </figure>
   <br class="clear">
 </div>

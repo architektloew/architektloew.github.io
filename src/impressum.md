@@ -21,7 +21,7 @@ path: /impressum/
     <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. <br>Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
   </div>
   <figure class="column2">
-    <img src="{{ site.url }}/assets/images/unserbuero_02.jpg">
+    <img src="/assets//images/unserbuero_02.jpg">
   </figure>
   <br class="clear">
 </div>

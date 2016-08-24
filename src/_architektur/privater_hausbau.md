@@ -40,20 +40,20 @@ collection: architektur
         </ul>
       </div>
       <figure class="column2">
-        <img src="{{ site.url }}/assets/images/ph_1.jpg">
+        <img src="/assets//images/ph_1.jpg">
       </figure>
       <br class="clear">
     </div>
 </div>
 <div class="content_box">
   <figure class="column xs-hidden">
-    <img src="{{ site.url }}/assets/images/ph_2.jpg">
+    <img src="/assets//images/ph_2.jpg">
   </figure>
   <div class="column2">
     {% include beratung.html %}
   </div>
   <figure class="column xs-only">
-    <img src="{{ site.url }}/assets/images/ph_2.jpg">
+    <img src="/assets//images/ph_2.jpg">
   </figure>
   <br class="clear">
 </div>

@@ -21,7 +21,7 @@ weight: 20
         <p><i>Gutachten ist nicht gleich Gutachten. Wir erstellen ihnen ein Gutachten auf höchstem Qualitätsniveau</i>.</p>
     </div>
     <figure class="column2">
-        <img src="{{ site.url }}/assets/images/gutachten1.jpg">
+        <img src="/assets//images/gutachten1.jpg">
     </figure>
     <br class="clear">
 </div>
@@ -29,7 +29,7 @@ weight: 20
 
 <div class="content_box">
     <figure class="column xs-hidden">
-        <img src="{{ site.url }}/assets/images/gutachten2.jpg">
+        <img src="/assets//images/gutachten2.jpg">
     </figure>
     <div class="column2">
         <h3>Unsere Leistungen</h3>
@@ -48,7 +48,7 @@ weight: 20
         <br><br> <a href="mailto:info@architekt-loew.de" title="e-mail senden" class="mail">info@architekt-loew.de</a></p>
     </div>
     <figure class="column xs-only">
-        <img src="{{ site.url }}/assets/images/gutachten2.jpg">
+        <img src="/assets//images/gutachten2.jpg">
     </figure>
     <br class="clear">
 </div>

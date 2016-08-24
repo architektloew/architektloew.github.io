@@ -34,18 +34,18 @@ collection: architektur
       <li>Auflistung von Garantien und Gewährleistungsfristen</li>
     </ul>
   </div>
-  <div class="column2"><img src="{{ site.url }}/assets/images/e573395934.jpg"></div>
+  <div class="column2"><img src="/assets//images/e573395934.jpg"></div>
   <br class="clear">
 </div>
 <div class="content_box">
   <figure class="column xs-hidden">
-    <img src="{{ site.url }}/assets/images/parfuemerie.jpg">
+    <img src="/assets//images/parfuemerie.jpg">
   </figure>
   <div class="column2">
     {% include beratung.html %}
   </div>
   <figure class="column xs-only">
-    <img src="{{ site.url }}/assets/images/parfuemerie.jpg">
+    <img src="/assets//images/parfuemerie.jpg">
   </figure>
   <br class="clear">
 </div>

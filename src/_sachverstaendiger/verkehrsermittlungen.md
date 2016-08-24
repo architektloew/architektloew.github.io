@@ -24,7 +24,7 @@ weight: 30
     <p>Kurzgutachten sind eine preiswerte Alternative zu vollständigen Gutachten. Wir fertigen ihnen ein Kurzgutachten an, wenn sie schnell einen Verkehrswert brauchen.<br><br></p>
   </div>
   <figure class="column2">
-    <img src="{{ site.url }}/assets/images/iStock_gutachten.jpg">
+    <img src="/assets//images/iStock_gutachten.jpg">
   </figure>
   <br class="clear">
 </div>

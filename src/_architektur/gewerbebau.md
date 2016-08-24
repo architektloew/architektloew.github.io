@@ -40,7 +40,7 @@ weight: 25
       </ul>
   </div>
   <div class="column2">
-    <img src="{{ site.url }}/assets/images/66b2b2536c.jpg">
+    <img src="/assets//images/66b2b2536c.jpg">
   </div>
   <br class="clear">
 </div>

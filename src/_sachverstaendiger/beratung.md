@@ -15,7 +15,7 @@ weight: 50
     <p>Sind Sie sich unsicher, ob sie für ihr Grundstück, Haus oder Wohnung zu viel bezahlen? Wir sagen ihnen, wie viel das Objekt wirklich wert ist. Trauen Sie keinen schönen Objektbeschreibungen. Bezahlen sie den Marktwert und nicht den ideellen Wert des Verkäufers. Es geht um ihr Geld.</p>
   </div>
   <figure class="column2">
-    <img src="{{ site.url }}/assets/images/iStock_review-planl.jpg">
+    <img src="/assets//images/iStock_review-planl.jpg">
   </figure>
   <br class="clear">
 </div>
@@ -23,7 +23,7 @@ weight: 50
 
 <div class="content_box">
   <figure class="column xs-hidden">
-    <img src="{{ site.url }}/assets/images/iStock_architektur_schluessell.jpg">
+    <img src="/assets//images/iStock_architektur_schluessell.jpg">
   </figure>
   <div class="column2">
 
@@ -43,7 +43,7 @@ weight: 50
     <p>Jetzt anrufen und einen unverbindlichen und kostenlosen Beratungstermin vereinbaren!<br> Telefon: (06431) 93540<br> oder E-Mail:<br> <a href="mailto:loew@architekt-loew.de" title="e-mail senden" class="mail">loew@architekt-loew.de</a></p><p></p>
   </div>
   <figure class="column xs-only">
-    <img src="{{ site.url }}/assets/images/iStock_architektur_schluessell.jpg">
+    <img src="/assets//images/iStock_architektur_schluessell.jpg">
   </figure>
   <br class="clear">
 </div>

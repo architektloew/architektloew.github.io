@@ -21,7 +21,7 @@ weight: 40
     <p>Telefon: (06431) 93540 oder <a href="mailto:loew@architekt-loew.de" title="e-mail senden">E-Mail</a></p>
   </div>
   <figure class="column2">
-    <img src="{{ site.url }}/assets/images/iStock_architekt-planl.jpg">
+    <img src="/assets//images/iStock_architekt-planl.jpg">
   </figure>
   <br class="clear">
 </div>

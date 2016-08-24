@@ -17,7 +17,7 @@ collection: architektur
     Durch sein Wirken baute er das Büro kontinuierlich aus. 1980 wurde Hermann Löw öffentlich bestellter und vereidigter Sachverständiger der IHK für Gebäudeschätzungen, Bauschäden, Baumängel sowie Mieten und Pachten.<br>                    Im Jahr 2000 trat seine Tochter Architektin Dipl.-Ing. <b>Katrin Begeré</b> in das Büro ein und führt das Unternehmen erfolgreich fort.<br><br>
     <i>Das Büro ist Mitglied der Architektenkammer Hessen.</i></p>
   </div>
-  <figure class="column2"><img src="{{ site.url }}/assets/images/unserbuero_03.jpg"></figure>
+  <figure class="column2"><img src="/assets//images/unserbuero_03.jpg"></figure>
   <br class="clear">
 </div>
 
@@ -25,7 +25,7 @@ collection: architektur
 
   <div class="person">
     <figure class="image">
-      <img src="{{ site.url }}/assets/images/hermannloew_01.jpg">
+      <img src="/assets//images/hermannloew_01.jpg">
     </figure>
     <div class="description">
       <h1>Hermann Löw</h1>
@@ -40,7 +40,7 @@ collection: architektur
 
   <div class="person">
     <figure class="image">
-      <img src="{{ site.url }}/assets/images/katrinbegere_01.jpg">
+      <img src="/assets//images/katrinbegere_01.jpg">
     </figure>
     <div class="description">
       <h1>Katrin Begeré, geb. Löw</h1>
