@@ -1,6 +1,7 @@
 'use strict';
 const gulp = require('gulp');
-const ghPages = require('gulp-gh-pages');
+const path = require('path');
+const ghPages = require('gh-pages');
 
 // 'gulp deploy' -- pushes your dist folder to Github
 gulp.task('upload', (done) => {
