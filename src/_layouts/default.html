@@ -11,10 +11,12 @@
         {% include header.html %}
 
         <div class="main">
+          {% if page.headline %}
           <div class="headline">
-            <h1>Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.</h1>
-            <h3>Wir bauen Ihr Traumhaus für Ihr Kostenbudget.</h3>
+            <h1>{{ page.headline }}</h1>
+            <h3>{{ page.subheader }}</h3>
           </div>
+          {% endif %}
           {{ content }}
         </div>
 

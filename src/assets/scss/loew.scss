@@ -75,7 +75,8 @@ figure {
     height: 27px;
     position: absolute;
     border-bottom: 1px solid #8F8F8F;
-    top: -26px;
+    top: -27px;
+    z-index: 9;
     @include mq($bp--large) {
         display: none;
     }
@@ -163,7 +164,7 @@ figure {
 }
 
 .inner_wrap .header #logo {
-    background: url("../images/logo.jpg") no-repeat;
+    background: url("../images/logo-neu.jpg") no-repeat;
     width: 190px;
     height: 240px;
     display: block;
@@ -199,9 +200,9 @@ figure {
 }
 
 .main .headline {
-    line-height:25px;
+    line-height:28px;
     padding-left: 10px;
-    background: url("../images/quotes.jpg") 10px 20px no-repeat;
+    background: url("../images/quotes-neu.jpg") 10px 10px no-repeat;
     border-bottom: 1px dashed #8f8f8f;
     @include mq($bp--medium) {
         background: none;
@@ -227,7 +228,7 @@ figure {
 cursor:pointer;
 }
 .content_box h2,.content_box h3 {
-background: url("../images/node.jpg") -2px -3px no-repeat;
+background: url("../images/node-neu.jpg") -2px -3px no-repeat;
 padding-left: 30px;
 line-height: 22px;
 }
@@ -332,18 +333,20 @@ color: #737373;
 }
 
 .person .image{
-    width: 300px;
+    width: 260px;
     float: left;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     @include mq($bp--medium) {
         width: auto;
         max-width: 220px;
         padding: 0;
         float: none;
+        margin: 0 auto;
     }
 }
 .person .image img{
-    margin: 20px;
+    margin: 20px 0;
+    max-width: 200px;
     -webkit-box-shadow: 5px 5px 20px 0px rgba(110,110,110,1);
     -moz-box-shadow: 5px 5px 20px 0px rgba(110,110,110,1);
     box-shadow: 5px 5px 20px 0px rgba(110,110,110,1);
@@ -425,6 +428,12 @@ span.download_description {
     position: absolute;
 }
 
+#map_canvas {
+    min-height: 500px;
+}
+
+/*
+
 form.kontakt_form {
     float: left;
     padding: 0 10px 0 0;
@@ -445,3 +454,5 @@ form.kontakt_form label {
     vertical-align: middle;
     padding-left: 5px;
 }
+
+*/

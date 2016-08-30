@@ -4,6 +4,8 @@ title: Startseite
 path: /startseite/
 collection: sachverstaendiger
 weight: 10
+headline: Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.
+subheader: Wir bauen Ihr Traumhaus für Ihr Kostenbudget.
 ---
 
 <div class="content_box">

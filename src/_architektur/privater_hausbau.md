@@ -4,6 +4,8 @@ title: Privater Hausbau
 path: /privater-hausbau/
 weight: 20
 collection: architektur
+headline: Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.
+subheader: Wir bauen Ihr Traumhaus für Ihr Kostenbudget.
 ---
 
 

@@ -4,6 +4,8 @@ title: Unser Büro
 path: /unser-buero/
 weight: 50
 collection: architektur
+headline: Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.
+subheader: Wir bauen Ihr Traumhaus für Ihr Kostenbudget.
 ---
 
 <div class="content_box">
@@ -23,20 +25,7 @@ collection: architektur
 
 <div class="content_box">
 
-  <div class="person">
-    <figure class="image">
-      <img src="/assets//images/hermannloew_01.jpg">
-    </figure>
-    <div class="description">
-      <h1>Hermann Löw</h1>
-      <ul>
-        <li>1958 - 1961 Architekturstudium an der Ingenieurhochschule Idstein (heute Fachhochschule Wiesbaden), Dipl.-Ingenieur </li>
-        <li>1961 - 1965 Wirtschaftsstudium an der Universität Giessen, Dipl.-Ökonom</li>
-        <li>1980 bis 2005 Mitglied in den Gutachterausschüssen der Stadt Limburg und des Landkreises Limburg-Weilburg.</li>
-      </ul>
 
-    </div>
-  </div>
 
   <div class="person">
     <figure class="image">

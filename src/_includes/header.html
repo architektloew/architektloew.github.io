@@ -16,7 +16,11 @@
     </div>
     <div id="logo"></div>
     <div class="header_image">
-      <img src="/assets//images/erfolg.jpg" alt="Erfolg für Ihr Bauvorhaben" title="Erfolg für Ihr Bauvorhaben"/>
+      {% if page.url contains 'startseite' %}
+        <img src="/assets/images/erfolg.jpg" alt="Erfolg für Ihr Bauvorhaben" title="Erfolg für Ihr Bauvorhaben"/>
+      {% else %}
+        <img src="/assets/images/erfolg_weiss_13.jpg" alt="Erfolg für Ihr Bauvorhaben" title="Erfolg für Ihr Bauvorhaben"/>
+      {% endif %}
     </div>
   </div>
   <div class="main_navigation">
