@@ -549,7 +549,5 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
       module.exports = exports["default"];
     }, {}] }, {}, [1])(1);
 });
-'use strict';
-
-console.log('hello main');
+"use strict";
 //# sourceMappingURL=index.js.map
