@@ -176,14 +176,12 @@ body {
   position: absolute;
   top: 12px;
   left: 12px;
-  outline: none;
-  background: url("../assets/menu.png") no-repeat left center; }
+  outline: none; }
 
 .tooltip {
   font-size: 20px;
   line-height: 19px;
   display: inline-block;
-  background: #4B5 url("../assets/happy.png") no-repeat 135px 15px;
   color: #fff;
   padding: 10px 45px 10px 20px;
   border-radius: 4px;
@@ -227,9 +225,6 @@ html, body {
   background-color: transparent;
   color: #424144; }
 
-html {
-  background: url("../images/shadow_only.jpg") top center no-repeat; }
-
 a {
   outline: 0;
   text-decoration: none; }
@@ -265,8 +260,6 @@ figure {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #8F8F8F;
-  border-top: 0;
   margin-top: 40px;
   z-index: 2;
   background-color: #fff; }
@@ -277,8 +270,9 @@ figure {
 .inner_wrap .top_tabs {
   height: 27px;
   position: absolute;
-  border-bottom: 1px solid #8F8F8F;
+  border-bottom: 1px solid #8f8f8f;
   top: -27px;
+  left: 50px;
   z-index: 9; }
   @media screen and (max-width: 960px) {
     .inner_wrap .top_tabs {
@@ -289,11 +283,14 @@ figure {
   list-style-type: none;
   margin: 0; }
 
+.top_tabs ul {
+  padding: 0; }
+
 .inner_wrap .top_tabs ul li {
   float: left;
   padding: 6px 7px 2px 7px;
-  border: 1px solid #ddd;
-  border-bottom: 1px solid #8F8F8F;
+  border: 1px solid #dddddd;
+  border-bottom: 1px solid #8f8f8f;
   text-transform: uppercase;
   letter-spacing: 1.1px;
   background-color: #fff;
@@ -302,7 +299,7 @@ figure {
   font-size: 12px; }
 
 .inner_wrap .top_tabs ul li.active, .inner_wrap .top_tabs ul li:hover {
-  border: 1px solid #383838;
+  border: 1px solid #8f8f8f;
   border-bottom: 0;
   z-index: 3; }
 
