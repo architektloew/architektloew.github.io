@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Unsere Philosophie
-path: /unsere-philosophie/
+title: Philosophie
+path: /philosophie/
 weight: 60
 collection: architektur
 headline: Sie bauen in der Regel nur einmal im Leben ein Haus! <br/>Da kann jeder Fehler zu viel sein.

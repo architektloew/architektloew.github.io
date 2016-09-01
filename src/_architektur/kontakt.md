@@ -4,7 +4,7 @@ title: Kontakt
 path: /kontakt/
 weight: 100
 collection: architektur
-headline: Kontaktieren Sie uns jederzeit wenn Sie Fragen haben <br> und wir vereinbaren einen unverbindlichen Beratungstermin
+headline: Kontaktieren Sie uns jederzeit wenn Sie Fragen haben und wir vereinbaren einen unverbindlichen Beratungstermin
 ---
 
 <div class="content_box">
