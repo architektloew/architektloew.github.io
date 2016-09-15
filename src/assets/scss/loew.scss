@@ -142,6 +142,7 @@ figure {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: .9px;
+    transition: 0.2s ease;
 }
 
 .main_navigation ul li.active {
@@ -170,8 +171,8 @@ figure {
     height: 240px;
     display: block;
     position: absolute;
-    left: 40px;
-    top: 75px;
+    left: 46px;
+    top: 59px;
     @include mq($bp--large) {
         position: relative;
         margin: 40px auto;
@@ -185,6 +186,21 @@ figure {
     float: right;
     padding-right: 25px;
     max-width: 680px;
+    height: 344px;
+    width: 100%;
+    background: url('../images/erfolg_weiss_13.jpg') right center no-repeat;
+
+    h1, h2 {
+        position: absolute;
+        font-family: futura, helvetica, arial;
+        top: 100px;
+        left: 300px;
+    }
+
+    h2 {
+        top: 140px;
+    }
+
     @include mq($bp--large) {
         display: none;
     }
@@ -203,7 +219,7 @@ figure {
 .main .headline {
     line-height:28px;
     padding-left: 10px;
-    background: url("../images/quotes-neu.jpg") 10px 10px no-repeat;
+    background: url("../images/quotation.jpg") 10px 10px no-repeat;
     border-bottom: 1px dashed #8f8f8f;
     @include mq($bp--medium) {
         background: none;
@@ -217,6 +233,7 @@ figure {
 .main .headline h3 {
     font-size: 14px;
     font-weight: normal;
+    margin-top: 10px;
 }
 
 .content_box {
@@ -229,7 +246,7 @@ figure {
 cursor:pointer;
 }
 .content_box h2,.content_box h3 {
-background: url("../images/node-neu.jpg") -2px -3px no-repeat;
+background: url("../images/dot.jpg") -4px -3px no-repeat;
 padding-left: 30px;
 line-height: 22px;
 }
