@@ -85,7 +85,7 @@ body {
 .menu-section-list a:hover, .slideout-menu li.active, .slideout-menu li.active a {
   background-color: rgba(255, 255, 255, 0.1);
   text-decoration: none;
-  color: #ffff00; }
+  color: #ffe700; }
 
 .panel {
   text-align: center;
@@ -352,7 +352,7 @@ figure {
   overflow: hidden; }
 
 .inner_wrap .header #logo {
-  background: url("../images/logo-neu.jpg") no-repeat;
+  background: url("../images/logo_new.jpg") no-repeat;
   width: 190px;
   height: 240px;
   display: block;
